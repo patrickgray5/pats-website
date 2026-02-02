@@ -11,7 +11,7 @@ export default function Home() {
       </a>
       <div className="flex gap-8">
         <a href="#portfolio" className="text-gray-600 hover:text-gray-900 transition-colors">
-          Portfolio
+          See My Portfolio
         </a>
         <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">
           Services
