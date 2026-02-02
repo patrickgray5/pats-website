@@ -36,12 +36,14 @@ export async function POST(req: Request) {
       `,
     });
 
+    console.log("Email sent successfully!");
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Email error:", error);
+    console.error("Email sending failed:", error);
     return NextResponse.json(
-      { error: "Failed to send message" },
+      { error: "Failed to send message", details: String(error) },
       { status: 500 }
     );
   }
 }
+
