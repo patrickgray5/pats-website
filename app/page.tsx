@@ -11,7 +11,7 @@ export default function Home() {
       </a>
       <div className="flex gap-8">
         <a href="#portfolio" className="text-gray-600 hover:text-gray-900 transition-colors">
-          Work
+          Portfolio
         </a>
         <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">
           Services
@@ -102,7 +102,7 @@ export default function Home() {
     <div className="max-w-7xl mx-auto">
       <div className="max-w-3xl mb-20">
         <h2 className="text-5xl font-bold text-gray-900 mb-6">
-          Check Out My Work!
+          Portfolio
         </h2>
         <p className="text-xl text-gray-600 leading-relaxed">
           Interactive prototypes designed for demo purposes only.
