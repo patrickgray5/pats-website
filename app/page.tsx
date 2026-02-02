@@ -74,9 +74,7 @@ export default function Home() {
     </h1>
     
     <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-      Get production-ready dashboard designs with clean HTML/CSS code and 
-      fully interactive prototypes—so your developers can focus on functionality, 
-      not perfecting spacing and colors.
+      Get production-ready dashboard designs with reusable code and fully interactive prototypes—so your developers can focus on functionality, not perfecting styling and layouts.
     </p>
     
     <div className="flex gap-4 justify-center flex-wrap">
